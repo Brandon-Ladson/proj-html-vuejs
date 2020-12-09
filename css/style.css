@@ -176,6 +176,24 @@ main .fourth-section .bottom-content > div{
   width: calc(100% / 4);
 }
 
+/* regole fifth section */
+main .fifth-section{
+  text-align: center;
+}
+
+main .fifth-section img{
+  height: 80px;
+  border-radius: 50%;
+}
+
+main .fifth-section .bottom-content{
+  display: flex;
+}
+
+main .fifth-section .bottom-content > div{
+  width: calc(100% / 3);
+}
+
 /* regole footer */
 footer{
   display: flex;
