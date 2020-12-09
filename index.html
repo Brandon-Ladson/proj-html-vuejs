@@ -11,6 +11,52 @@
   </head>
   <body>
 
+    <!-- contenitore app -->
+    <div id="app">
+
+      <!-- jumbotron -->
+      <header>
+
+        <!-- navbar -->
+        <nav>
+
+          <!-- parte sinistra -->
+          <div class="left-content">
+            LOGO
+          </div>
+
+          <!-- parte destra -->
+          <div class="right-content">
+
+            <!-- link della navbar -->
+            <div class="links">
+
+              <a href="#" v-for="link in linkHeader">
+                {{link}}
+              </a>
+
+              <i class="fas fa-search"></i>
+
+            </div>
+
+            <div class="login">
+
+              <a href="#">
+                LOGIN
+              </a>
+
+              <i class="fas fa-shopping-cart"></i>
+
+            </div>
+
+          </div>
+
+        </nav>
+
+      </header>
+
+    </div>
+
 
 
 

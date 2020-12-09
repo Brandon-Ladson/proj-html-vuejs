@@ -4,3 +4,47 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+/* regole app */
+
+/* regole header */
+
+/* regole navbar */
+header nav{
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20%;
+  height: 80px;
+  background-color: red;
+}
+
+/* regole parte sinistra */
+nav .left-content{
+  background-color: yellow;
+  width: 200px;
+  height: 100%;
+}
+
+/* regole parte destra */
+nav .right-content{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: green;
+  min-width: 200px;
+  height: 100%;
+}
+
+nav .right-content .links a{
+  padding: 10px;
+  background-color: lightblue;
+  border: 1px solid #000;
+}
+
+nav .right-content .login{
+  margin-left: 100px;
+}
+
+nav .right-content .login i{
+  margin-left: 20px;
+}
