@@ -37,7 +37,7 @@ header nav{
   justify-content: space-between;
   position: absolute;
   top: 0;
-  padding: 0 20%;
+  padding: 0 15%;
   height: 80px;
   width: 100%;
   background-color: red;
@@ -87,7 +87,7 @@ header .header-content{
 /* regole mani */
 main{
   background-color: #cecece;
-  padding: 0 20%;
+  padding: 0 15%;
 }
 
 section{
@@ -132,10 +132,42 @@ main .second-section .bottom-content > div:first-of-type{
   text-align: left;
 }
 
+/* regole third section */
+main .third-section{
+  text-align: center;
+}
+
+main .third-section img{
+  width: 100%;
+}
+
+main .third-section .central-content{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+main .third-section .central-content > .photo{
+  position: relative;
+  width: calc(100% / 3);
+}
+
+main .third-section .central-content > .photo img{
+  filter: brightness(60%);
+}
+
+main .third-section .central-content > .photo .text-area{
+  position: absolute;
+  z-index: 900;
+  bottom: 0;
+  color: #fff;
+  text-align: left;
+}
+
+
 /* regole footer */
 footer{
   display: flex;
-  padding: 20px 20% 80px 20%;
+  padding: 20px 15% 80px 15%;
   background-color: blue;
   /* min-height: 300px; */
 }
