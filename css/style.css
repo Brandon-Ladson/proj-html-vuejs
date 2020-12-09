@@ -5,6 +5,14 @@
   box-sizing: border-box;
 }
 
+body{
+  font-family: sans-serif;
+}
+
+a{
+  text-decoration: none;
+}
+
 /* regole app */
 
 /* regole header */
@@ -28,7 +36,6 @@ nav .left-content{
   display: flex;
   align-items: center;
   background-color: yellow;
-  /* width: 200px; */
   height: 100%;
 }
 
@@ -59,3 +66,34 @@ nav .right-content .login{
 nav .right-content .login i{
   margin-left: 20px;
 }
+
+/* regole mani */
+
+/* regole footer */
+footer{
+  display: flex;
+  padding: 20px 20% 80px 20%;
+  background-color: blue;
+  /* min-height: 300px; */
+}
+
+footer > div{
+  width: calc(100% / 4);
+  background-color: yellow;
+  border: 1px solid black;
+}
+
+footer a{
+  display: block;
+}
+
+/* regole contenitore logo */
+footer .logo-content img{
+  height: 50px;
+}
+
+/* regole contenitore about company */
+
+/* regole contenitore top courses */
+
+/* regole contenitore populare categories */
