@@ -8,6 +8,11 @@
 /* regole app */
 
 /* regole header */
+header{
+  min-height: 100vh;
+  background-image: url('../img/1-1.jpg');
+  background-size: cover;
+}
 
 /* regole navbar */
 header nav{
@@ -20,9 +25,15 @@ header nav{
 
 /* regole parte sinistra */
 nav .left-content{
+  display: flex;
+  align-items: center;
   background-color: yellow;
-  width: 200px;
+  /* width: 200px; */
   height: 100%;
+}
+
+nav .left-content img{
+  height: 80%;
 }
 
 /* regole parte destra */
@@ -31,7 +42,7 @@ nav .right-content{
   justify-content: space-between;
   align-items: center;
   background-color: green;
-  min-width: 200px;
+  /* min-width: 200px; */
   height: 100%;
 }
 
