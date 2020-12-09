@@ -108,6 +108,30 @@ main .first-section .central-content > div{
   width: calc(100% / 4);
 }
 
+/* regole second section */
+main .second-section{
+  text-align: center;
+}
+
+main .second-section img{
+  width: 90%;
+}
+
+main .second-section .bottom-content{
+  display: flex;
+}
+
+main .second-section .bottom-content > div{
+  width: calc(100% / 3);
+}
+
+main .second-section .bottom-content > div:first-of-type{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+}
+
 /* regole footer */
 footer{
   display: flex;
