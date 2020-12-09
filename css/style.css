@@ -163,6 +163,18 @@ main .third-section .central-content > .photo .text-area{
   text-align: left;
 }
 
+/* regole fourth sectione */
+main .fourth-section{
+  text-align: center;
+}
+
+main .fourth-section .bottom-content{
+  display: flex;
+}
+
+main .fourth-section .bottom-content > div{
+  width: calc(100% / 4);
+}
 
 /* regole footer */
 footer{
