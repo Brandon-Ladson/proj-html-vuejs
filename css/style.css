@@ -194,6 +194,11 @@ main .fifth-section .bottom-content > div{
   width: calc(100% / 3);
 }
 
+/* regole sixth section */
+main .sixth-section{
+  text-align: center;
+}
+
 /* regole footer */
 footer{
   display: flex;
