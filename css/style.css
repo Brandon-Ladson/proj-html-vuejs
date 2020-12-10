@@ -270,11 +270,21 @@ main .fourth-section .bottom-content > div{
 /* regole fifth section */
 main .fifth-section{
   text-align: center;
+  background-color: #fff;
 }
 
 main .fifth-section img{
   height: 80px;
   border-radius: 50%;
+}
+
+main .fifth-section .top-content h2{
+  font-weight: normal;
+}
+
+
+main .fifth-section .top-content p{
+  margin: 30px 0 60px 0;
 }
 
 main .fifth-section .bottom-content{
@@ -283,6 +293,14 @@ main .fifth-section .bottom-content{
 
 main .fifth-section .bottom-content > div{
   width: calc(100% / 3);
+}
+
+main .fifth-section .bottom-content > div p{
+  margin: 10px 0;
+}
+
+main .fifth-section .bottom-content > div .text{
+  margin-top: 10px;
 }
 
 /* regole sixth section */
