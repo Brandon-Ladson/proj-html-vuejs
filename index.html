@@ -581,43 +581,15 @@
 
         </div>
 
-        <!-- conetnitore about company -->
-        <div class="company-content">
+        <!-- contenitori links -->
+        <div class="links-content" v-for="categoria in categorieFooter">
 
           <h3>
-            About Company
+            {{categoria.nome}}
           </h3>
 
           <!-- links -->
-          <a href="#" v-for="link in linkCompanyFooter">
-            {{link}}
-          </a>
-
-        </div>
-
-        <!-- contenitore top courses -->
-        <div class="courses-content">
-
-          <h3>
-            Top Courses
-          </h3>
-
-          <!-- links -->
-          <a href="#" v-for="link in linkCoursesFooter">
-            {{link}}
-          </a>
-
-        </div>
-
-        <!-- contenitore populare categories -->
-        <div class="popular-content">
-
-          <h3>
-            Populare Categories
-          </h3>
-
-          <!-- links -->
-          <a href="#" v-for="link in linkCategoriesFooter">
+          <a href="#" v-for="link in categoria.links">
             {{link}}
           </a>
 
