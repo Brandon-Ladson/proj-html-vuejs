@@ -79,6 +79,12 @@ nav .right-content{
 
 nav .right-content .links a{
   padding: 10px;
+  font-weight: bold;
+}
+
+nav .right-content .links a:hover{
+  border-top: 4px solid #fff;
+  padding-top: 27px;
 }
 
 nav .right-content .links i{
