@@ -282,7 +282,6 @@ main .fifth-section .top-content h2{
   font-weight: normal;
 }
 
-
 main .fifth-section .top-content p{
   margin: 30px 0 60px 0;
 }
@@ -306,6 +305,22 @@ main .fifth-section .bottom-content > div .text{
 /* regole sixth section */
 main .sixth-section{
   text-align: center;
+  color: #fff;
+  background-color: #ffae29;
+}
+
+main .sixth-section h2{
+  font-weight: normal;
+}
+
+main .sixth-section p{
+  margin: 20px 0 20px 0;
+}
+
+main .sixth-section button{
+  text-align: center;
+  color: #000;
+  background-color: #fff;
 }
 
 /* regole footer */
