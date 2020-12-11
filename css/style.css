@@ -29,6 +29,7 @@ button{
 
 button:hover{
   cursor: pointer;
+  transform: scale(1.02);
 }
 
 /* regole header */
@@ -339,4 +340,9 @@ footer a{
 /* regole contenitore logo */
 footer .logo-content img{
   height: 50px;
+}
+
+/* regole links */
+footer .links-content a:hover{
+  color: #fff;
 }
